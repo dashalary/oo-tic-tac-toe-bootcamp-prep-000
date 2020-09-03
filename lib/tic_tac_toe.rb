@@ -88,6 +88,10 @@ def full?
 end
 end
 
-
+def over?
+  if won? || full? || draw?
+  return true
+end
+end
    
 end
