@@ -100,5 +100,7 @@ if combo
   return @board[combo[0]]
 end
 end
+
+
    
 end
