@@ -41,7 +41,7 @@ def move(index, character = "X")
 end
   
   def position_taken?(index)
-  if  @board[index] == nil 
+  if  @board[index] == nil || @board[index] == "" || @board[index] == " " 
     return false
   else 
     return true
