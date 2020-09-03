@@ -72,5 +72,12 @@ WIN_COMBINATIONS.detect do |combo|
   end
 end
 
-
+def full?
+ if @board.include?(" ")
+   return false
+ else
+   true
+ end
+ end
+   
 end
