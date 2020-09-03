@@ -80,6 +80,12 @@ def full?
  end
  end
  
- 
+ def draw?
+  if full? && !won?
+    return true
+  else 
+    return false
+end
+end
    
 end
