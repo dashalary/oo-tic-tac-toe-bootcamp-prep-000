@@ -40,7 +40,7 @@ def move(index, character = "X")
   @board[index] = character
 end
   
-  def position_taken?
+  def position_taken?(index)
     binding.pry 
   if  @board[index] == nil 
     return false
